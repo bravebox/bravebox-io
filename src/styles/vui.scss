@@ -1,0 +1,24 @@
+//// EXAMPLE FILE
+
+// Vendor mixins
+@import './vui-site/vendor/normalize';
+@import './vui-site/vendor/wordpress';
+@import './vui-site/vendor/animate';
+@import './vui-site/vendor/slick';
+
+// VUI
+@import './vui.fonts';
+@import './vui.maps';
+
+// VUI-lib
+@import '../../node_modules/bravepress-vui/src/vui-lib.scss';
+//@import './vui-lib.scss';
+
+// VUI-site
+@import './vui-site/vui.global';
+
+// VUI-site components
+@import './vui-site/components/vui.header';
+@import './vui-site/components/vui.footer';
+@import './vui-site/components/vui.layout';
+@import './vui-site/components/vui.grid';

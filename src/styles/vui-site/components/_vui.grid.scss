@@ -1,0 +1,91 @@
+// SUSY (CREAT CUSTOM GRID HERE WITH SUSY)
+/// ----------------------------------------------------------------------------
+/// see example below
+
+//$sy-config: (
+//  'susy-columns': 12,
+//  'susy-gutters': 1 / 4,
+//  'susy-container': 71.25rem,
+//  'susy-box-sizing': border-box
+//);
+//
+//
+//$sy-grid: (
+//  'columns': map-get($sy-config, 'susy-columns'),
+//  'gutter': .5rem,
+//  'global-box-sizing': map-get($sy-config, 'usy-container'),
+//  'debug': (
+//    'image': show,
+//    'color': rgba(#bada55, .50),
+//    'output': background,
+//    'toggle': top right
+//  )
+//);
+//
+//
+//@include with-layout($sy-grid) {
+//  .sy-container {
+//    @include container(73.125rem);
+//  }
+//
+//  .sy-container-fluid {
+//    @include container();
+//  }
+//
+//  .sy-container-padding {
+//    padding-left: 0.938rem;
+//    padding-right: 0.938rem;
+//  }
+//
+//  .sy-row {
+//    @include vui-clearfix();
+//  }
+//
+//  %mobile {
+//    @include span(12);
+//  }
+//
+//  @for $i from 1 through map-get($sy-config, susy-columns) {
+//    .sy-col-#{$i} {
+//      &::before {
+//        content: ".sy-col-#{$i}";
+//      }
+//      @extend %mobile;
+//      @include breakpoint( map-get($vui-breakpoints-min, sm) ) {
+//        @include span($i);
+//      }
+//    }
+//    .sy-col-#{$i}-first {
+//      &::before {
+//        content: ".sy-col-#{$i}-first";
+//      }
+//      @extend %mobile;
+//      @include breakpoint( map-get($vui-breakpoints-min, md) ) {
+//        @include span($i first);
+//      }
+//    }
+//    .sy-col-#{$i}-last {
+//      &::before {
+//        content: ".sy-col-#{$i}-last";
+//      }
+//      @extend %mobile;
+//      @include breakpoint( map-get($vui-breakpoints-min, lg) ) {
+//        @include span($i last);
+//      }
+//    }
+//  }
+//
+//  .sy-grid {
+//    @include vui-clearfix();
+//  }
+//
+//  .sy-grid-item {
+//    @include gallery(6 no-gutters);
+//    @include breakpoint( map-get($vui-breakpoints-min, md) ) {
+//      @include gallery(4);
+//    }
+//    @include breakpoint( map-get($vui-breakpoints-min, lg) ) {
+//      @include gallery(3);
+//    }
+//  }
+//}
