@@ -1,2 +1,7 @@
 .sass-cache
 node_modules/
+src/
+config.rb
+gulpfile.js
+npm-debug.log
+package.json
